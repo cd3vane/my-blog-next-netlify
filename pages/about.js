@@ -4,7 +4,7 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
+        <h1 className="title">Welcome to my blog!</h1>
 
         <p className="description">
           This is a simple blog built with Next, easily deployable on{' '}
